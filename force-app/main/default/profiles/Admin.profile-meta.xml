@@ -4,6 +4,11 @@
         <apexClass>AccountHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
+    
+<classAccesses>
+        <apexClass>AccountTrigger_Test</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <custom>false</custom>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
