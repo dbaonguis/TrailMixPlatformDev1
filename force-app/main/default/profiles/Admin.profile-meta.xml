@@ -4,9 +4,32 @@
         <apexClass>AccountHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
-    
-<classAccesses>
+    <classAccesses>
         <apexClass>AccountTrigger_Test</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>EmailUtils</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>RemindOpptyOwners</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>UpdateContactAddressTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>UpdateContactAddresses</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>UpdateParentAccount</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>UpdateParentAccountTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <custom>false</custom>
