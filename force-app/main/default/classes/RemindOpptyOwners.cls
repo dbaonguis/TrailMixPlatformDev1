@@ -9,6 +9,7 @@ global class RemindOpptyOwners implements Schedulable {
         for (Opportunity opp : opptys) {
             tasks.add(new Task(Subject='Expired Opportunity!', ActivityDate=Date.today()+5, WhatId=opp.Id, OwnerId=opp.OwnerId));
         }
+
         if (tasks.size() > 0) insert tasks;
     }
 }
